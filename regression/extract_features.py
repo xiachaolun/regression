@@ -146,7 +146,7 @@ def generateData(X, Y, toShuffle=True):
     test_X = []
     test_Y = []
     for i in xrange(len(pairs)):
-        if i < 1200:
+        if i < 200:
             training_X.append(pairs[i][0])
             training_Y.append(pairs[i][1])
         else:
